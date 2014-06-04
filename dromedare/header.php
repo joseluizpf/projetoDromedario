@@ -56,6 +56,37 @@
 			<img src="<?php echo get_bloginfo('template_directory');?>/images/buttons/HoFButton.gif"/>
 		</div>
 		
+		<!-- CAIXA DE NOTIFICAÇÕES (DISPLAY: NONE) -->
+		<div class="notifBox">
+			<!-- boato "veja mais" -->
+			<div class="seeMore">
+				<!-- link para pagina de notificações aqui -->
+				<p>Notificações</p>
+		<!--	<p>Notification</p>
+				<p>Notificaciones</p> -->
+			</div>
+			
+			<div class="notificacao">
+				<!-- imagem quando nao tem notificacao -->
+				<img src="<?php echo get_bloginfo('template_directory'); ?>/images/notificacoes/none.gif" />
+			</div>
+			
+			<!-- MAIS NOTIFICAÇÕES (SÓ PRA VER COMO FICA) -->
+			<div class="notificacao">
+				<!-- imagem quando nao tem notificacao -->
+				<img src="<?php echo get_bloginfo('template_directory'); ?>/images/notificacoes/none.gif" />
+			</div>
+			<div class="notificacao">
+				<!-- imagem quando nao tem notificacao -->
+				<img src="<?php echo get_bloginfo('template_directory'); ?>/images/notificacoes/none.gif" />
+			</div>
+			<div class="notificacao">
+				<!-- imagem quando nao tem notificacao -->
+				<img src="<?php echo get_bloginfo('template_directory'); ?>/images/notificacoes/none.gif" />
+			</div>
+			
+		</div><!-- notifBox -->
+		
 		
 		<!-- <nav id="site-navigation" class="main-navigation" role="navigation"> -->
 			<!-- <button class="menu-toggle"><?php #_e( 'Primary Menu', 'dromedare' ); ?></button> -->
